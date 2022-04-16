@@ -5,65 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #fff;
-  font-family: 'Poppins', sans-serif;
-}
-
-.background{
-  background-color: #f6f9fc;
-  padding: 50px 0;
-}
-.container{
-  max-width: 90%;
-  margin: auto;
-}
-.d_flex{
-  display: flex;
-  justify-content: space-between;
-}
-.c_flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.f_flex{
-  display: flex;
-}
 a{
-  text-decoration: none;
-  color: #000;
-}
-li{
-  list-style-type: none;
-}
-.uppercase{
-  text-transform: uppercase;
-}
-.capitalize{
-  text-transform: capitalize;
-}
-.Rtext{
-  text-align: right;
-}
-input, button{
-  border: none;
-  outline: none;
-  background-color: none;
-}
-.row{
-  width: 50%;
-}
-.icon-circle{
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  background-color: #f3f5f9;
-  border-radius: 50%;
-  text-align: center;
-  margin-left: 20px;
-  cursor: pointer;
-}
-.boxShadow{
-  box-shadow: rgb(43 52 69 /10%) 0 4px 16px;
+  text-decoration: none !important;
+  color: inherit !important;
 }
