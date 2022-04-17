@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Container, FormControl, Navbar } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 // import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import {CartState} from '../context/Context'
@@ -13,13 +13,10 @@ const Header = () => {
            <Navbar.Brand>
                <Link to="/">Store</Link>
            </Navbar.Brand>
-           <Navbar.Text className='search'>
-               <FormControl
-                 style={{width: "500px"}}
-                 placeholder="Search a product"
-                 className='m-auto'
-               />
-           </Navbar.Text>
+           <Navbar.Brand>
+               <Link to="/login">Log in</Link>
+           </Navbar.Brand>
+           
            <Navbar.Brand>
                <Link to="/cart">Cart({cart.length})</Link>
            </Navbar.Brand>
